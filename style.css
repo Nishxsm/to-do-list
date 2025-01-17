@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('file:///D:/nishant/sky.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+
+  .container{
+    background-color: aquamarine;
+    padding:2rem;
+    border-radius: 8px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .title{
+    font-size: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+
+  .task-input{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 30vh;
+    border: 1px solid brown;
+    font-size: 1rem;
+    border-radius: 4px;
+    background-color:aliceblue
+  }
+
+  .add-task-btn{
+    width: 100px;
+    padding:0rem;
+    background-color:grey;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .add-task-btn:hover{
+background-color: lightgrey;
+  }
+
+
+  .task-list{
+    margin-top: 1rem;
+    list-style-type: none;
+  }
+
+  .task-list{
+  padding: 0.8rem;
+  margin-bottom: 0.6rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 3%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-list:hover{
+    background-color: lightgray;
+}
+  
